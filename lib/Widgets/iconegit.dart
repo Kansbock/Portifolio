@@ -30,7 +30,7 @@ class _IconeGitState extends State<IconeGit> {
           color: Colors.white,
         ),
         child: Center(
-          child: Image.asset("assets/imagens/Github.png"),
+          child: Image.network('https://cdn-icons-png.flaticon.com/512/25/25231.png'),
         ),
       ),
     );
